@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario Html</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body class="container">
+<header>
+	<h2>Formulario con Html5</h2>
+</header>
+<nav>
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#">Inicio</a></li>
+		<li><a href="#">Contactos</a></li>
+		<li><a href="#">Noticias</a></li>
+		<li><a href="#">Proyectos</a></li>
+	</ul>
+</nav>
+<section class="jumbotron">
+	<form method="POST" style="width: 300px;">
+  		<label>Nombre:</label>
+  		<input class="form-control" name="nombre" type="text" placeholder="Escriba su Nombre" required="required">
+		<br>
+		<label>Email:</label>
+  		<input class="form-control" name="email" type="email" placeholder="Escriba su Email" required="required">
+		<br>
+		<label>Edad:</label>
+  		<input class="form-control" name="edad" type="number" placeholder="Escriba su Edad" required="required" min="0" max="100">
+		<br>
+		<label>Fecha de Nacimiento:</label>
+		<input type="date" name="fechaNacimiento" class="form-control" required="required">
+		<br>
+		<input type="submit" class="btn-primary btn-block btn-lg">
+	</form>
+</section>
+</body>
+<div style="text-align: center;">
+<footer>
+	&copy Fabiana Kaefer 2017
+</footer>
+</div>
+</html>
